@@ -48,7 +48,7 @@ GIT Branches
 
 git branch - lists branches
 
-Add a branch - git checkout -b pupil
+Add a branch - git checkout -b <branch_name>
 change branch - git checkout <branch_name>
 
 Changing from branch 2 to branch 1 will not display commits from branch 2
