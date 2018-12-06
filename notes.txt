@@ -33,3 +33,7 @@ Add files of a certain type - git add *.html (file extention name)
 Add all files - git add -A
 
 Remove file - git reset HEAD <file>
+
+Ignore files - add file name in .gitignore hidden file
+
+touch mv <file> - renames the file
