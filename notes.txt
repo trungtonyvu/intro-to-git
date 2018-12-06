@@ -54,3 +54,5 @@ change branch - git checkout <branch_name>
 Changing from branch 2 to branch 1 will not display commits from branch 2
 
 git merge <branch_name>
+
+delete branch - git branch -d <branch_name>
