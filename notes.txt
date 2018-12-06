@@ -26,3 +26,6 @@ git revert --no-commit ########..HEAD  - revert back to whatever commit we provi
 
 
 Working Directory -> (git add) -> Staging Area -> (git commit) -> Git Repository
+
+
+Add files of a certain type - git add *.html (file extention name)
