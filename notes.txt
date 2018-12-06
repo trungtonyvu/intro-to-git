@@ -1,0 +1,28 @@
+git --version
+
+git init    - initialize git a new repository in a given directory
+git status  - asking for update/changes to repository
+git add     - here are the files i want you to track
+git commit  - making a checkpoint in time with the changes you added
+
+repository - file system for GIT that's hidden and when initiated, it immediately starts tracking code for you
+
+ls -a - see hidden files
+git commit -m "" - allows to type a commit message (every commit needs to have a message describing what commit is eg. a checkpoint)
+git add . - adds all files not staged for commit
+
+git log - shows us the history of our commits that we made to the respository
+    type "q" to get out of log
+
+git checkout - checking for branch, previous commit; transports you "back in time"
+
+Head
+  0 -> 0 -> 0 -> 0
+               Master
+               
+git checkout master - go back to master branch
+
+git revert --no-commit ########..HEAD  - revert back to whatever commit we provided; revert all commits at once
+
+
+Working Directory -> (git add) -> Staging Area -> (git commit) -> Git Repository
