@@ -36,4 +36,21 @@ Remove file - git reset HEAD <file>
 
 Ignore files - add file name in .gitignore hidden file
 
-touch mv <file> - renames the file
+mv <file> - renames the file
+
+
+GIT Branches
+-------------
+
+        /-------0----0-----0
+       /                  /
+------0------0-----0-----0
+
+git branch - lists branches
+
+Add a branch - git checkout -b pupil
+change branch - git checkout <branch_name>
+
+Changing from branch 2 to branch 1 will not display commits from branch 2
+
+git merge <branch_name>
