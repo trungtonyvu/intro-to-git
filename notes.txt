@@ -30,7 +30,8 @@ Working Directory -> (git add) -> Staging Area -> (git commit) -> Git Repository
 
 Add files of a certain type - git add *.html (file extention name)
 
-Add all files - git add -A
+Add all files - git add -A or git add .
+                
 
 Remove file - git reset HEAD <file>
 
